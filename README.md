@@ -1,2 +1,2 @@
 # HTML-CSS
-HTML and CSS projects
+This repository was created for the managing and tracking of all my projects relating to HTML and CSS
