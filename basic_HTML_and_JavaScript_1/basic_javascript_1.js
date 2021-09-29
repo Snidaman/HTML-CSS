@@ -1,6 +1,11 @@
 <!DOCTYPE HTML>
 <html>
 <script>
-alert("hello world! I am an alert box");
+function Myfirst_function() {
+		var String = "Jadon's a bitch";
+		var result = string.fontcolor("green");
+		document.getElementById("Irish").innerHTML =
+		result; 
+	}
 </script>
 </html>
