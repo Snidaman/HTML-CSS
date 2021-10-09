@@ -1,4 +1,5 @@
- line-height: 30px;
+
+line-height: 30px;
     padding-bottom: 15px;
 }
 
@@ -61,7 +62,8 @@
     color: #fff;   
 }
 
-.photo-overlay:hover {
+.photo-overlay .photo:hover {
+
     opacity: 1;
 }
 

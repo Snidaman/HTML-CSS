@@ -3,13 +3,15 @@
 	<head>
 		<title>The Space Station | Resort </title>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="C:\Users\snide\Documents\GitHub\HTML-CSS\SpaceProject\CSS\shared.css">
+		<link rel="stylesheet" href="C:\Users\snide\Documents\GitHub\HTML-CSS\SpaceProject\CSS\animations.css">
 	</head>
 	<body>
 	
 		<!-- NAV -->
-		<div>
-			<div>
-				<ul>
+		<div class="wrap">
+			<div calss="menu-container">
+				<ul class="menu">
 					<a href="#home" id="link"><li>HOME</li></a>
 					<a href="#gallery" id="link"><li>GALLERY</li></a>
 					<a href="#contact" id="link"><li>RESERVATIONS</li></a>
@@ -21,7 +23,7 @@
 		<!-- HOME -->
 		<div id="home">
 			<div class="container">
-				<div class="text-cetner">
+				<div class="text-center">
 					<span class="head-main"> The Space Station</span>
 				</div>
 			</div>
@@ -148,15 +150,15 @@
 		<!-- END GALLERY -->
 		
 		<!-- RSVP -->
-		<section>
-			<div id="contact">
-				<div>
-					<h1> Reservations </h1>
-					<div>
+		<section id="contact">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding"> Reservations </h1>
+					<div class="reservation">
 						<h2><span> Your adventure is just around the moon. </span>
 							<br /> Reserve your flight today!
 						</h2>
-						<p>
+						<p class="rsvp-text">
 							Please provide us with your basic contact information
 						</p>
 						<div>
@@ -168,7 +170,7 @@
 							<div class="form-spacer">
 								<label class="terms">Terms and Conditions</label>
 							</div>
-							<div>
+							<div class="submit">
 								<input type="submit" value="Submit">
 							</div>
 						</form>
