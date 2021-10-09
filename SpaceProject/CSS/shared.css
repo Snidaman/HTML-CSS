@@ -144,7 +144,7 @@ section {
 
 
 #home {
-    background: url(https://github.com/Snidaman/HTML-CSS/blob/58bf8da2c37b0a5e881867ed37480a962b30bc62/SpaceProject/images/planets.jpg) no-repeat 50% 50%;
+    background: url(../images/planets.jpg) no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
