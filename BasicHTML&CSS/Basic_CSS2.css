@@ -1,0 +1,8 @@
+p {
+	font-style: italic;
+	text-align: center;
+	color: purple ;
+	font-size: 5 ;
+	background: Yellow ;
+	text-shadow: 2px 2px 5px red;
+}
