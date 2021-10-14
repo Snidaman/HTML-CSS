@@ -1,54 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/main.css" />
-  </head>
-  <body>
-    <nav class="fixed">
-      <ul class="navbar">
-        <li class="navlink"><a href="#">Home</a></li>
-        <li class="navlink"><a href="#">About</a></li>
-        <li class="navlink"><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-    <!-- Challenge One -->
-    <div class="container">
-      <img class="center-img" src="./img/me.jpg" alt="" />
+
+<head>
+    <meta charset="utf-8">
+    <title>Basic HTML Template</title>
+    <link rel="stylesheet" href="./main.css" </head>
+
+<body>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
     </div>
-    <!-- Challenge 3 -->
     <div class="container">
-      <div>
-        <h3>Voyage</h3>
+        <img src="./Img/download.jpg" alt="Poke ball with Mewtwo inside" class="center-img">
+        <div class="text">Random Pokemon</div>
+        <div class="overlay">
+            <div class="overlay-text">MewTwo</div>
+        </div>
+
+    </div>
+    <div>
         <table>
-          <tr>
-            <th>Places</th>
-            <th>Year</th>
-            <th>Verdict</th>
-          </tr>
-          <tr>
-            <td>Los Angeles</td>
-            <td>2019</td>
-            <td>Best</td>
-          </tr>
-          <tr>
-            <td>New York</td>
-            <td>2020</td>
-            <td>Ok</td>
-          </tr>
-          <tr>
-            <td>Miami</td>
-            <td>2022</td>
-            <td>Good</td>
-          </tr>
+            <tr>
+                <th>Pokemon</th>
+                <th>Type</th>
+                <th>Power</th>
+            </tr>
+            <td>MewTwo</td>
+            <td>Psychic</td>
+            <td>Psystrike</td>
         </table>
-      </div>
+    </div>
+    <div class="row">
+        <div class="column" style="background-color: #bbb;">
+            <h5>Hello</h5>
+        </div>
+        <div class="column" style="background-color: #aaa;">
+            <h5>World</h5>
+        </div>
+    </div>
+    <div class="ptext">
+        <p>hover to change color</p>
     </div>
 
-    <!-- challenge 2 -->
-    <footer>Made By Kyle Snider &nbsp;|&nbsp; &copy;2021</footer>
-  </body>
+    <div class="container2">
+        <video controls loop autoplay muted height="700" width="400" class="center-video">
+            <source src="./video/video.mp4" type="video/mp4">
+            <source src="./video/video.mp4" type="video/ogg">
+        </video>
+        <div class="overlay2">
+            <div class="text2">I am dope green smoke.</div>
+        </div>
+    </div>
+
+    <div>
+        <footer>
+            <p>Mewtwo PokeBall</p>
+            <p><a href="mailto:mewtwo@pokemon.pokedex">
+                </a>made by Kyle Snider</p>
+        </footer>
+    </div>
+
+
+</body>
+
 </html>

@@ -1,30 +1,177 @@
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
-.center-img {
-  display: block;
-  margin: 10px auto;
-  width: 50%;
-}
+/* This will add a grayscale filter to the photo and add a 7px dashed purpler
+border with a 25 pixel radious that makes it rounded off*/
 img {
-  filter: grayscale(100%);
-  border: 2px solid red;
-  border-radius: 25px;
+  filter: grayscale(50%);
+  border: 7px dashed rebeccapurple;
+  border-radius: 40px;
 }
+
+/* This is for the Mewtwo PokeBall and the email*/
 footer {
   text-align: center;
-  font-weight: 900;
+  padding: 3px;
+  font-weight: bold;
 }
-/* Table Styles */
-table {
+
+/* This controls the table of the Pokemon, type, and power*/
+
+table, th, td {
+  
+  border: 1px solid black ;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+th {
+  background-color: rgb(25, 228, 228);
+  color: rgb(83, 45, 83);
+}
+
+/* This is to put a text over the image*/
+
+.container {
+  position: relative;
+  text-align: center;
+  color: chartreuse;
   width: 100%;
 }
-table,
-th,
-td {
-  border: 1px solid black;
+
+.text {
+  position: absolute;
+  bottom: 1%;
+  left: 62%;
+  transform: translate(-50%, -50%);
 }
-th {
-  background-color: #04AA6D;
+
+/* This is the nav bar*/
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-left: -8px;
+}
+
+/* These are the links inside the navbar*/
+
+.navbar a {
+  text-decoration: none;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+/* hover over navbar and it will change colors*/
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+/* This is to make it so when you hover over the image it will display a text*/
+
+  /*This will center the image from the HTML file*/
+.center-img {
+  display: block;
+  margin-top: 150px;
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 55%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008cba;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.overlay-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* This is for the columns and makes the boxes for them*/
+
+.column {
+  float: left;
+  width: 15%;
+  padding: 10px;
+  height: 150px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* This will change the text and background color of the text"
+when you hover over me my color will change!"*/
+
+.ptext:hover {
+  background-color: #008cba;
+  color: bisque;
+}
+
+.ptext p {
+  font-weight: bold;
+}
+
+/* This is to make it so when you hover over the image it will display a text*/
+
+  /*This will center the image from the HTML file*/
+  .center-video {
+      display: block;
+      margin-top: 150px;
+      margin-bottom: 80px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+  }
+
+
+ /* This is to put a text over the image*/
+
+.container2 {
+  position: relative;
+  text-align: center;
+  color: rgb(207, 203, 203);
+  width: 100%;
+}
+
+.text2 {
+  position: absolute;
+  bottom: 70%;
+  left: 56%;
+  transform: translate(-50%, -50%);
 }
