@@ -3,7 +3,7 @@
 <script>
 function Myfirst_function() {
 		var String = "Jadon's a bitch";
-		var result = string.fontcolor("green");
+		var result = String.fontcolor("green");
 		document.getElementById("Irish").innerHTML =
 		result; 
 	}
